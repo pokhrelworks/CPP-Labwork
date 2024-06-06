@@ -9,20 +9,20 @@
 
 #include <iostream>
 
-// getInches with return type void and without any parameter
-void getInches()
+// calculateinch with return type void and without any parameter
+void calculateinch()
 {
     std::cout << "\n1foot = 12inches" << std::endl;
 }
 
-// getInches with return type and parameter int
-int getInches(int ft)
+// calculateinch with return type and parameter int
+int calculateinch(int ft)
 {
     return ft * 12;
 }
 
-// getInches with return type int and parameters int& and int&
-int getInches(int &ft, int &inches)
+// calculateinch with return type int and parameters int& and int&
+int calculateinch(int &ft, int &inches)
 {
     return ft * 12 + inches;
 }
@@ -37,9 +37,9 @@ int main()
     std::cout << "Enter inches: ";
     std::cin >> inches;
 
-    getInches();
-    std::cout << ft << "ft = " << getInches(ft) << "inches" << std::endl;
-    std::cout << ft << "ft " << inches << "inches = " << getInches(ft, inches) << std::endl;
+    calculateinch();
+    std::cout << ft << "ft = " << calculateinch(ft) << "inches" << std::endl;
+    std::cout << ft << "ft " << inches << "inches = " << calculateinch(ft, inches) << std::endl;
 
     return 0;
 }

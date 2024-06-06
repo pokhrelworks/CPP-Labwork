@@ -1,3 +1,12 @@
+/*
+    Lab 2
+    Additional Features in C++
+    Manipulators
+    1.  Write a program to set a structure to hold a date (mm,dd and yy),
+        assign values to the members of the structure and print out the values in the format
+        11/28/2004 by function. Pass the structure to the function
+*/
+
 #include <iostream>
 #include <iomanip> // for setfill and setw
 
@@ -39,6 +48,5 @@ int main()
 {
     Date d = getDateFromUser();
     printDate(d);
-
     return 0;
 }

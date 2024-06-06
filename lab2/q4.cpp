@@ -1,11 +1,19 @@
+/*
+    Lab 2
+    Additional Features in C++
+    Reference variable and return by reference
+    4.  Write a function that passes two temperatures by reference and sets the larger of the two numbers to a value entered by user by using return by reference.
+*/
 #include <iostream>
 
 // Function to set the larger of two temperatures to a value entered by the user
-float& setLargerTemperature(float& temp1, float& temp2) {
+float &setLargerTemperature(float &temp1, float &temp2)
+{
     return (temp1 > temp2) ? temp1 : temp2;
 }
 
-int main() {
+int main()
+{
     float temp1, temp2;
 
     std::cout << "Enter the first temperature: ";

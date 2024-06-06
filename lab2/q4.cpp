@@ -25,7 +25,7 @@ int main() {
     // Set the larger temperature to the new value
     setLargerTemperature(temp1, temp2) = newValue;
 
-    std::cout << "\nAfter setting the larger temperature:\n";
+    std::cout << "\nAfter\n";
     std::cout << "Temp1 = " << temp1 << std::endl;
     std::cout << "Temp2 = " << temp2 << std::endl;
 

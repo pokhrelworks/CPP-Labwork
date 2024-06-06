@@ -11,7 +11,7 @@ Date getDateFromUser()
 {
     Date d;
 
-    std::cout << "Enter the year (e.g., 2004): ";
+    std::cout << "Enter the year (e.g., 2024): ";
     std::cin >> d.year;
 
     std::cout << "Enter the month (1-12): ";
